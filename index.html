@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day6 whatsapp Theme task</title>
+    <link rel="stylesheet" href="Day6.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <div class="full">
+    <nav class="nav">
+        <div >
+            <span id="ar"><i class="fa-solid fa-arrow-left"></i></span>
+            <span id="dp"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMHBhETExEWFhUVGB8VFRYYGRcYHxoXHxcYHRwYGhghICggJCYlJxoZIjMiJTUtLi4vHSMzOD8tODQvLisBCgoKDg0OGhAQGysgICUsMC0rLSsuNjctKzErODUrODU3KzU3NTErMDc3NzcrLSs3NzctLi0tKzctLS0tKy03Lf/AABEIAMgAyAMBIgACEQEDEQH/xAAcAAEAAgMAAwAAAAAAAAAAAAAABgcDBAUBAgj/xABLEAABAwIEBAIFBwYJDQAAAAABAAIDBBEFBhIhBxMxQSJRMmFxgZEIFBUjUqGxFmKClLLBJEJTY3J0otLTFyUzNDU2Q1WTs9Hw8f/EABoBAQADAQEBAAAAAAAAAAAAAAADBAUBAgb/xAArEQEAAgIBAgMGBwAAAAAAAAAAAQIDEQQhMRJBcQUTFEJSoRUiUYGR0fD/2gAMAwEAAhEDEQA/ALxREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB4RR7HsxNorsjs6TofJvt9fqWtlbGJKp8pmku1jdVyALdbnYKl8di99GGOsz/C18Hl91OWekJWioOq4lYvm/H5IsJZpY25aAyMuLAba3uk8Iv5C3W267vDPiZU1uYTh+ItAmuWsfpDDzG3vG9o8PY2It77q6qrfRVNxX4lz4FizKGhaDOQ3W8t1lpd6DGM7uNwd79R7oyOImN5NxWIYpHrjk30uZE0lu2osfHtcXGx+66C/wBFDs9Z5jyzlJtWy0hmDRTjoHFzdQce9gN/gNr3VTjPGY3YT9ID/Vb9eVDpte3S3M0321feg+iUUOyFnmPNGVnVTwI3Q3FQ3qGlrdRcO+kjf4je11WJ4i41nLGJW4XHojj3DWsicdF9i98l23PkLe+10F/oql4V8S58Zxh9BXtAqBq0P06CXMvrjezoHCxO1uh98r4oZhmy3lR80GkSue2NrnC4bqO7rd+n/wBXJ6EQlyjue6ds2Wpnuq5KTlDW2djnt0EdNQafED00977b2VbfSON/82b+rwf3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Xf7W1vMt/wDCjkOVpZ4Ha59BEkzogxtrCSq5vjcHAuBADbDTs5297ET08WvzIbeH5W9WZtpqQt8RdcargWAHOZE7UT0LS/cHyK2q7MEVNgr6lpL2NOmzRuXa9Gmx6G+xv0XLp8nCEN+u2DnOIDLdZ4p7DxbeKO3fZ3mLnqPwUOoZY9ZtJLzibdDzGvt/ZUjy9nZgpmF952DR6VzYDxhh36GznBpt0JsbLNWYvDQxMdJIGh4Lm3v6ItdxHYC4uTsLi65H5KansDpiWRO1QtDLFoNRHMQ51/FvGGg2GxN7ndZ80ZdOYItJmLGlkkbm2LgQ8N8YGoDU22xOoeI7IOnV1nzaRotcuBPUDYW8/avEeIMka3fcgGx2IBFxdeKmjM7mHUNTWlp8Nwb6bm19vRWMYWGwabm233Cyr2nLFp12TRGPXXuyOxKMFvivc227Xa5w+Okr3bXxua86tmDU53bSRe9/YtWjonmoD37abWG3Zrx2/p/d2WaDDhHA5jjqa5oYR5jTY/EJS2WZjblopG9NOjx7mxCSSB8MLmGVsryy2nY+MA+AkG4B9ffZZvygprN+vaNWogHY2ZbXcHcabi9+l1onLsz6LlGtfpYzlxaW6Dbw2dKWu8Zs222j0nd7Ea8OTGtp5mulJErJYzpbosJuVqtcnoY9r36736mwidEYvRRs5uuMblpdps4EN1G4tqGxDrnsQei36XEIqyd7I5GudHYPA30ki4BPTpuo4/JQfZ3NaJPGC7lnTpe2NpGjXe/1bSC5zu+1th2sKwn6LBax/gLi4t0j7DWgbdLaQUHUREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/9k=" class="img" alt="loading"></span>
+             <span id="name"><h1>10K Coders</h1></span>
+            <span id="icon"> 
+            <i class="fa-solid fa-video" id="vi"></i>
+            <i class="fa-solid fa-phone" id="phone"></i>
+            <i class="fa-solid fa-ellipsis-vertical" id="line"></i>
+        </span>
+        </div>
+    </nav>
+    
+    <section >
+        <div class="date">
+            05-December 2024
+         </div>
+
+        <div class="left">
+           <pre>Hlo Nani varma</pre>
+       </div>
+
+       
+
+        <div class="right">
+            <pre>Hlo Who is This...?</pre>
+        </div>
+        <div class="left">
+            <pre>Hey! This is Navya</pre>
+
+        </div>
+        <div class="left">
+            <pre>From 10K Coders</pre>
+
+        </div>
+
+        <div class="right">
+            <pre> Hlo Mam Tell me</pre>
+        </div>
+        <div class="left">
+           <pre>Tomorrow there is a live demo class </pre>
+
+        </div>
+        <div class="left">
+            <pre>are you interested to log in...? </pre>
+ 
+         </div>
+
+        <div class="right">
+            <pre>Yes Mam </pre>
+        </div>
+
+        <div class="right">
+            <pre>May i know the Class timings</pre>
+        </div>
+
+        <div class="left">
+           <pre>Tomorrow morning 10:30am</pre>
+
+        </div>
+
+        <div class="right">
+            <pre>Okay Mam i will join tomorrow...!</pre>
+        </div>
+
+        <div class="date">
+            06-December 2024
+        </div>
+
+        <div class="left">
+            <pre>Hlo Nani varma</pre>
+        </div>
+
+        <div class="left">
+            <pre>Good Morning😊</pre>
+        </div>
+        <div class="right">
+            <pre>Hlo Mam,Gd mrng</pre>
+        </div>
+
+        <div class="left">
+            <pre>I shared a Email about Demo Class </pre>
+        </div>
+        <div class="left">
+            <pre>Please Check it Once</pre>
+        </div>
+        <div class="left">
+            <pre>Please login,and join through that link</pre>
+        </div>
+        <div class="right">
+            <pre>Okay Mam, Thank you</pre>
+        </div>
+
+        <div class="date">
+            07-December 2024
+        </div>
+
+        <div class="left">
+            <pre>Hlo Nani Varma</pre>
+
+        </div>
+        <div class="left">
+            <pre>Demo Cls ki Attend ayyara yesterday...?</pre>
+        </div>
+
+        <div class="right">
+          <pre>Haa ayyanu Mam</pre>
+        </div>
+
+        <div class="left">
+            <pre>Ela Undhi</pre>
+
+        </div>
+        <div class="right">
+         <pre>Yes Mam its good</pre>
+        </div>
+
+        <div class="right">
+            <pre>But antha clarity ga ldhu mam online lo</pre>
+           </div>
+
+        <div class="left">
+            <pre>Okay</pre>
+        </div>
+
+        <div class="left">
+            <pre>Offline Demo classes kuda run avthunnayi</pre>
+        </div>
+
+        <div class="left">
+            <pre>If miru free unte vachi once attend avvandi</pre>
+        </div>
+        <div class="left">
+            <pre>Tomorrow morning 10:30am</pre>
+        </div>
+        <div class="right">
+         <pre>Okay Mam,repu attend avthanu</pre>
+        </div>
+        <div class="left">
+           <pre><b>Kphb road no1, opposite to violet and purple</b></pre>
+
+        </div>
+        <div class="left">
+            <pre><b>10k Coders</b></pre>
+         </div>
+
+        <div class="right">
+         <pre>Okay Mam</pre>
+        </div>
+    
+
+        <div class="date">
+            08-December 2024
+         </div>
+        <div class="right">
+            <pre>Mam iam at location...</pre>
+
+        </div>
+        <div class="left">
+            <pre>Okay 2nd floar, Classroom 1 ki vellandi</pre>
+        </div>
+        <div class="right">
+            <pre> Okay Mam</pre>
+        </div>
+        <div class="left">
+            <pre>Hlo Ela undhi offline class</pre>
+        </div>
+
+        <div class="right">
+         <pre>Good, Bagundhi Mam</pre>
+        </div>
+
+        <div class="left">
+            <pre>If Miku Fees gurunchi any Query's unte </pre>
+        </div>
+        <div class="left">
+            <pre>Okasari Office ki randi matladutham </pre>
+        </div>
+
+       <div class="right">
+         <pre>Okay Mam</pre>
+        </div>
+        <div class="left">
+            <pre>Me Frnds avaraina unna cheppandi</pre>
+        </div>
+
+        <div class="right">
+            <pre>Okay Mam</pre>
+        </div>
+
+        <div class="date">
+            09-December 2024
+        </div>
+        <div class="left">
+            <pre>Hlo ivvala fees Pay chesthara</pre>
+        </div>
+
+        <div class="right">
+            <pre>Yes Mam</pre>
+        </div>
+
+            <div class="right">
+               <pre>Afternoon varaku vachi pay chestha</pre>
+        </div>
+
+        <div class="left">
+            <pre>Okay</pre>
+        </div>
+
+        <div class="date">
+            12-December 2024
+                    </div>
+        <div class="left">
+            <pre>Hlo andi, Classes ela ru  avthunnsyi</pre>
+          </div>
+
+        <div class="right">
+            <pre>Okay It's Good...!</pre>
+        </div>
+        <div class="left">
+            <pre>
+                Name:
+                Degree details:
+                Clg name:
+                Parent contact:
+                Mail id:
+                How you approach 10kcoders:</pre>
+          </div>
+          <div class="left">
+            <pre>Naku okasari ehe details share cheyandi</pre>
+          </div>
+
+          <div class="right">
+            <pre>Okay</pre>
+        </div>
+
+        <div class="date">
+              Yesterday
+         </div>
+        <div class="left">
+            <Pre>Hlo Nani varma</Pre>
+         </div>
+
+        <div class="right">
+          <pre>Hlo Mam</pre>
+        </div>
+
+        <div class="left">
+            <Pre>Already 1Week Avthundhi miru remaining</Pre>
+         </div>
+
+         <div class="left">
+            <Pre>Fees amount pay cheyyali</Pre>
+         </div>
+
+         <div class="left">
+            <Pre>Appude Dashboard access provide chestharu  </Pre>
+         </div>
+
+         
+         <div class="left">
+            <Pre>formalities untai kada try to understand...</Pre>
+         </div>
+
+         <div class="right">
+            <Pre>Okay Mam with in 1Day lo pay chestha</Pre>
+         </div>
+
+        <div class="date">
+            
+                    </div>
+        <div class="left">
+
+            <div class="date">
+                
+                        </div>
+            <div class="left">
+            
+
+        </div>
+
+       
+
+    </section>
+    <footer>
+        <input type="text" name="msg" placeholder="" value="Message" id="msg">
+      <span id="imoji">
+        <i class="fa-solid fa-face-laugh"></i>
+        <i class="fa-solid fa-paperclip" id="attach"></i>
+        <i class="fa-solid fa-indian-rupee-sign" id="rupee"></i>
+        <i class="fa-solid fa-camera" id="cam"></i>
+        <!-- <p id="p1">Message</p> -->
+      </span>
+    </footer>
+
+
+
+
+
+ </div>
+
+</body>
+</html>
